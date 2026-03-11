@@ -1,9 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './turkey-water-crisis-v5.jsx'
+import Dashboard from './turkey-water-crisis-v5.jsx' // Burada 'Dashboard' olarak çağırıyoruz
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
+    <Dashboard /> 
   </React.StrictMode>,
 )
