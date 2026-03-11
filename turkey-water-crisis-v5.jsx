@@ -1,4 +1,3 @@
-import React from 'react';
 import { useState, useEffect } from "react";
 
 // sektörler: gida=Gıda İmalatı | tekstil=Tekstil | kimya=Kimya/Petrokimya | metal=Metal/Çelik
@@ -184,6 +183,7 @@ export default function WaterDashboard() {
                 return (
                   <div key={b.id} onClick={()=>setSelected(isSel?null:b)} style={{
                     ...C(), cursor:"pointer",
+                    borderLeft:`4px solid ${s.color}`,
                     background: isSel?s.bg:"#fff",
                     border:`1px solid ${isSel?s.border:"#dde4ee"}`,
                     borderLeft:`4px solid ${s.color}`,
@@ -750,4 +750,3 @@ export default function WaterDashboard() {
     </div>
   );
 }
-export default Dashboard;
