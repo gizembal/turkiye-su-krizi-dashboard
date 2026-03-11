@@ -749,3 +749,4 @@ export default function WaterDashboard() {
     </div>
   );
 }
+export default Dashboard;
