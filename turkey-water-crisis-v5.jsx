@@ -183,7 +183,6 @@ export default function WaterDashboard() {
                 return (
                   <div key={b.id} onClick={()=>setSelected(isSel?null:b)} style={{
                     ...C(), cursor:"pointer",
-                    borderLeft:`4px solid ${s.color}`,
                     background: isSel?s.bg:"#fff",
                     border:`1px solid ${isSel?s.border:"#dde4ee"}`,
                     borderLeft:`4px solid ${s.color}`,
