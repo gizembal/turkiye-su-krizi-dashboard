@@ -1,3 +1,4 @@
+import React from 'react';
 import { useState, useEffect } from "react";
 
 // sektörler: gida=Gıda İmalatı | tekstil=Tekstil | kimya=Kimya/Petrokimya | metal=Metal/Çelik
